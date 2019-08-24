@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
-
 #include <iostream>
+
+//#include "../../src/snippet/range.cpp"
 
 using namespace std;
 
@@ -13,15 +14,15 @@ namespace {
     }
 
     // The fixture for testing class Foo.
-    class ExampleTest : public ::testing::Test {
+    class SnippetTest : public ::testing::Test {
     protected:
         // You can remove any or all of the following functions if its body is empty.
 
-        ExampleTest() {
+        SnippetTest() {
           // You can do set-up work for each test here.
         }
 
-        virtual ~ExampleTest() {
+        virtual ~SnippetTest() {
           // You can do clean-up work that doesn't throw exceptions here.
         }
 
@@ -38,7 +39,7 @@ namespace {
     };
 
     // Tests that Foo does Xyz.
-    TEST_F(ExampleTest, DoesXyz) {
+    TEST_F(SnippetTest, DoesXyz) {
       // Exercises the Xyz feature of Foo.
     }
 }

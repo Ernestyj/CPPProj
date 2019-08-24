@@ -13,15 +13,15 @@ namespace {
     }
 
     // The fixture for testing class Foo.
-    class ExampleTest : public ::testing::Test {
+    class MyCppTest : public ::testing::Test {
     protected:
         // You can remove any or all of the following functions if its body is empty.
 
-        ExampleTest() {
+        MyCppTest() {
           // You can do set-up work for each test here.
         }
 
-        virtual ~ExampleTest() {
+        virtual ~MyCppTest() {
           // You can do clean-up work that doesn't throw exceptions here.
         }
 
@@ -38,7 +38,7 @@ namespace {
     };
 
     // Tests that Foo does Xyz.
-    TEST_F(ExampleTest, DoesXyz) {
+    TEST_F(MyCppTest, DoesXyz) {
       // Exercises the Xyz feature of Foo.
     }
 }
