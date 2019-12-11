@@ -6,8 +6,8 @@ aux_source_directory(. UNIT_TEST_SRCS)
 add_executable(Unit_Tests_run
 #    ${UNIT_TEST_SRCS}
 #    test_example.cpp
-    test_snppet.cpp
-#    test_mycpp.cpp
+#    test_snppet.cpp
+    test_mycpp.cpp
 )
 
 target_link_libraries(Unit_Tests_run gtest gtest_main)
